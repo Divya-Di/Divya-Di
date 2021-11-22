@@ -1,0 +1,15 @@
+With (.replace)
+s=str(input("Enter Input String : "))
+OP=' '
+OP=s.replace(' ','-')
+print("Your Output String is : ",OP);
+Without(.replace);
+s=str(input("Enter Input String : "))
+OP=' '
+length=len(s);
+for i in range(0,length):
+     if(s[i]==' '):
+        OP=OP+'-';
+     else:
+        OP=OP+s[i];
+print("Your Output is : ",OP);
